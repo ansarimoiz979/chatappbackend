@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const Rooms = require("../model/roomSchema")
+const Rooms = require("../model/room.model")
 //new room
 router.post("/newRoom", async (req, res) => {
     try {
