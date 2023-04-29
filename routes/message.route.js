@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const Message = require("../model/messageSchema")
+const Message = require("../model/message.model")
 //add new message
 router.post("/newMessage", async (req, res) => {
     try {
